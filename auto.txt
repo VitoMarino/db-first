@@ -1,0 +1,19 @@
+id                  MEDIUMINT       NOT_NULL, AUTO_INCREMENT        PRIMARY_KEY
+brand               VARCHAR(30)     NOT_NULL
+model               VARCHAR(50)     NOT_NULL
+veichle_type        VARCHAR(20)     NOT_NULL
+fuel_type           VARCHAR(15)     NOT_NULL
+engine_size         SMALLINT        NOT_NULL, UNSIGNED
+horse_power         SMALLINT        NOT_NULL, UNSIGNED
+trasmission_type    VARCHAR(15)     NOT_NULL
+frame_number        VARCHAR(20)     NOT_NULL
+mileage             MEDIUMINT       NULL, UNSIGNED
+price               DECIMAL(10, 2)  NOT_NULL
+lenght              SMALLINT        UNSIGNED
+condition           VARCHAR(20)     NULL
+outside_colour      VARCHAR(20)     NOT_NULL
+inside_colour       VARCHAR(20)     NOT_NULL
+is_sold             BOOLEAN         NOT_NULL
+registration_date   DATE            NULL
+license_plate       VARCHAR(20)     NULL
+optision_list       TEXT            NULL
